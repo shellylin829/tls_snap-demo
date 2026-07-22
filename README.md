@@ -149,8 +149,6 @@ The tutorial covers:
 4. The notebook uses the example dataset in `example_data`. Generated output files are saved to the same path.
 
 
-For a complete example, see `examples/python_api.py`. 
-
 <!-- ## Notebook guide
 
 | Notebook | Purpose |
