@@ -54,27 +54,7 @@ tls_snap/
    ```
 
 3. Configure your data directory.
-tls_snap needs to know where your input datasets are stored. 
-
-By default, the pipeline expects the data directory to be located at:
-
-```text 
-../TLS_data
-```
-
-Alternatively, open `configs/default.yaml` and update the `data_root` field to point to your dataset directory.
-
-Example:
-**Windows**
-```yaml
-data_root: D:/Datasets/TLS_data
-```
-
-or
-**Linux/macOS**
-```yaml
-data_root: /home/user/Datasets/TLS_data
-```
+tls_snap needs to know where your input datasets are stored (See section 6.1). 
 
 ## 6. Input Data
 
@@ -110,7 +90,19 @@ D:/Datasets/TLS_Data/
 Alternatively, you may keep these folders anywhere that is convenient for your workflow.
 
 Update `configs/default.yaml` (or specify the path when running TLS-SNAP) so that it points to your data directory.
+Alternatively, open `configs/default.yaml` and update the `data_root` field to point to your dataset directory.
 
+Example:
+**Windows**
+```
+data_root: D:/Datasets/TLS_data
+```
+
+or
+**Linux/macOS**
+```
+data_root: /home/user/Datasets/TLS_data
+```
 
 ### 6.2 Example Data
 
